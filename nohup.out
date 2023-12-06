@@ -1,0 +1,368 @@
+WARNING:__main__:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Namespace(action_repr='actionset', activation='leaky_relu', anticipation='longfuture', aux_loss=False, batch_size=2, clip_max_norm=1, cuda=True, dataset='ek', dec_layers=2, decoder='parallel', device='cuda', dim_feedforward=2048, dim_latent=128, dist_url='env://', dropout=0.1, enc_layers=2, encoder='parallel', eos_coef=0.1, epochs=10, eval=False, evaluate_every=5, evaluate_every_epoch=5, fps=60, hidden_dim=256, label_type='verb', local_rank=None, loss_coef_segment=5, loss_coef_siou=3, lr=0.0001, lr_drop=100, lr_joiner=0, matcher_type='greedy', model='antr', nheads=8, norm_type='bn', num_actions=3806, num_decoder_embedding=10000, num_nouns=352, num_pos_embed_dict=50000, num_queries=900, num_verbs=125, num_workers=16, output_dir='./experiments/checkpoints/', position_embedding='sine', position_type='index', pre_norm=False, pretrained_dec_layers=2, pretrained_enc_layers=3, pretrained_path='pretraining_expts/checkpoints/try/checkpoint.pth', pretraining_task='snippet_longfuture_anticipation', resume='', root='data', save_checkpoint_every=1000, seed=42, set_cost_class=1, set_cost_segment=5, set_cost_siou=3, snippet_window=16, split=1, start_epoch=0, step_size=64, task='anticipation', train_many_shot=False, train_timestamps='0.2,0.3,0.4,0.5,0.6,0.7,0.8', val_timestamps='0.25,0.5,0.75', weight_decay=0.0001)
+Namespace(action_repr='actionset', activation='leaky_relu', anticipation='longfuture', aux_loss=False, batch_size=2, clip_max_norm=1, cuda=True, dataset='ek', dec_layers=2, decoder='parallel', device='cuda', dim_feedforward=2048, dim_latent=128, dist_url='env://', dropout=0.1, enc_layers=2, encoder='parallel', eos_coef=0.1, epochs=10, eval=False, evaluate_every=5, evaluate_every_epoch=5, fps=60, hidden_dim=256, label_type='verb', local_rank=None, loss_coef_segment=5, loss_coef_siou=3, lr=0.0001, lr_drop=100, lr_joiner=0, matcher_type='greedy', model='antr', nheads=8, norm_type='bn', num_actions=3806, num_decoder_embedding=10000, num_nouns=352, num_pos_embed_dict=50000, num_queries=900, num_verbs=125, num_workers=16, output_dir='./experiments/checkpoints/', position_embedding='sine', position_type='index', pre_norm=False, pretrained_dec_layers=2, pretrained_enc_layers=3, pretrained_path='pretraining_expts/checkpoints/try/checkpoint.pth', pretraining_task='snippet_longfuture_anticipation', resume='', root='data', save_checkpoint_every=1000, seed=42, set_cost_class=1, set_cost_segment=5, set_cost_siou=3, snippet_window=16, split=1, start_epoch=0, step_size=64, task='anticipation', train_many_shot=False, train_timestamps='0.2,0.3,0.4,0.5,0.6,0.7,0.8', val_timestamps='0.25,0.5,0.75', weight_decay=0.0001)
+Namespace(action_repr='actionset', activation='leaky_relu', anticipation='longfuture', aux_loss=False, batch_size=2, clip_max_norm=1, cuda=True, dataset='ek', dec_layers=2, decoder='parallel', device='cuda', dim_feedforward=2048, dim_latent=128, dist_url='env://', dropout=0.1, enc_layers=2, encoder='parallel', eos_coef=0.1, epochs=10, eval=False, evaluate_every=5, evaluate_every_epoch=5, fps=60, hidden_dim=256, label_type='verb', local_rank=None, loss_coef_segment=5, loss_coef_siou=3, lr=0.0001, lr_drop=100, lr_joiner=0, matcher_type='greedy', model='antr', nheads=8, norm_type='bn', num_actions=3806, num_decoder_embedding=10000, num_nouns=352, num_pos_embed_dict=50000, num_queries=900, num_verbs=125, num_workers=16, output_dir='./experiments/checkpoints/', position_embedding='sine', position_type='index', pre_norm=False, pretrained_dec_layers=2, pretrained_enc_layers=3, pretrained_path='pretraining_expts/checkpoints/try/checkpoint.pth', pretraining_task='snippet_longfuture_anticipation', resume='', root='data', save_checkpoint_every=1000, seed=42, set_cost_class=1, set_cost_segment=5, set_cost_siou=3, snippet_window=16, split=1, start_epoch=0, step_size=64, task='anticipation', train_many_shot=False, train_timestamps='0.2,0.3,0.4,0.5,0.6,0.7,0.8', val_timestamps='0.25,0.5,0.75', weight_decay=0.0001)
+Namespace(action_repr='actionset', activation='leaky_relu', anticipation='longfuture', aux_loss=False, batch_size=2, clip_max_norm=1, cuda=True, dataset='ek', dec_layers=2, decoder='parallel', device='cuda', dim_feedforward=2048, dim_latent=128, dist_url='env://', dropout=0.1, enc_layers=2, encoder='parallel', eos_coef=0.1, epochs=10, eval=False, evaluate_every=5, evaluate_every_epoch=5, fps=60, hidden_dim=256, label_type='verb', local_rank=None, loss_coef_segment=5, loss_coef_siou=3, lr=0.0001, lr_drop=100, lr_joiner=0, matcher_type='greedy', model='antr', nheads=8, norm_type='bn', num_actions=3806, num_decoder_embedding=10000, num_nouns=352, num_pos_embed_dict=50000, num_queries=900, num_verbs=125, num_workers=16, output_dir='./experiments/checkpoints/', position_embedding='sine', position_type='index', pre_norm=False, pretrained_dec_layers=2, pretrained_enc_layers=3, pretrained_path='pretraining_expts/checkpoints/try/checkpoint.pth', pretraining_task='snippet_longfuture_anticipation', resume='', root='data', save_checkpoint_every=1000, seed=42, set_cost_class=1, set_cost_segment=5, set_cost_siou=3, snippet_window=16, split=1, start_epoch=0, step_size=64, task='anticipation', train_many_shot=False, train_timestamps='0.2,0.3,0.4,0.5,0.6,0.7,0.8', val_timestamps='0.25,0.5,0.75', weight_decay=0.0001)
+| distributed init (rank 2): env://
+| distributed init (rank 0): env://
+| distributed init (rank 4): env://
+| distributed init (rank 1): env://
+Namespace(action_repr='actionset', activation='leaky_relu', anticipation='longfuture', aux_loss=False, batch_size=2, clip_max_norm=1, cuda=True, dataset='ek', dec_layers=2, decoder='parallel', device='cuda', dim_feedforward=2048, dim_latent=128, dist_url='env://', dropout=0.1, enc_layers=2, encoder='parallel', eos_coef=0.1, epochs=10, eval=False, evaluate_every=5, evaluate_every_epoch=5, fps=60, hidden_dim=256, label_type='verb', local_rank=None, loss_coef_segment=5, loss_coef_siou=3, lr=0.0001, lr_drop=100, lr_joiner=0, matcher_type='greedy', model='antr', nheads=8, norm_type='bn', num_actions=3806, num_decoder_embedding=10000, num_nouns=352, num_pos_embed_dict=50000, num_queries=900, num_verbs=125, num_workers=16, output_dir='./experiments/checkpoints/', position_embedding='sine', position_type='index', pre_norm=False, pretrained_dec_layers=2, pretrained_enc_layers=3, pretrained_path='pretraining_expts/checkpoints/try/checkpoint.pth', pretraining_task='snippet_longfuture_anticipation', resume='', root='data', save_checkpoint_every=1000, seed=42, set_cost_class=1, set_cost_segment=5, set_cost_siou=3, snippet_window=16, split=1, start_epoch=0, step_size=64, task='anticipation', train_many_shot=False, train_timestamps='0.2,0.3,0.4,0.5,0.6,0.7,0.8', val_timestamps='0.25,0.5,0.75', weight_decay=0.0001)
+Namespace(action_repr='actionset', activation='leaky_relu', anticipation='longfuture', aux_loss=False, batch_size=2, clip_max_norm=1, cuda=True, dataset='ek', dec_layers=2, decoder='parallel', device='cuda', dim_feedforward=2048, dim_latent=128, dist_url='env://', dropout=0.1, enc_layers=2, encoder='parallel', eos_coef=0.1, epochs=10, eval=False, evaluate_every=5, evaluate_every_epoch=5, fps=60, hidden_dim=256, label_type='verb', local_rank=None, loss_coef_segment=5, loss_coef_siou=3, lr=0.0001, lr_drop=100, lr_joiner=0, matcher_type='greedy', model='antr', nheads=8, norm_type='bn', num_actions=3806, num_decoder_embedding=10000, num_nouns=352, num_pos_embed_dict=50000, num_queries=900, num_verbs=125, num_workers=16, output_dir='./experiments/checkpoints/', position_embedding='sine', position_type='index', pre_norm=False, pretrained_dec_layers=2, pretrained_enc_layers=3, pretrained_path='pretraining_expts/checkpoints/try/checkpoint.pth', pretraining_task='snippet_longfuture_anticipation', resume='', root='data', save_checkpoint_every=1000, seed=42, set_cost_class=1, set_cost_segment=5, set_cost_siou=3, snippet_window=16, split=1, start_epoch=0, step_size=64, task='anticipation', train_many_shot=False, train_timestamps='0.2,0.3,0.4,0.5,0.6,0.7,0.8', val_timestamps='0.25,0.5,0.75', weight_decay=0.0001)
+| distributed init (rank 5): env://
+| distributed init (rank 3): env://
+ek : time-independent anticipation 1251
+WARNING:torch.distributed.elastic.agent.server.api:Received 1 death signal, shutting down workers
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 1000829 closing signal SIGHUP
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 1000830 closing signal SIGHUP
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 1000831 closing signal SIGHUP
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 1000832 closing signal SIGHUP
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 1000833 closing signal SIGHUP
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 1000834 closing signal SIGHUP
+ERROR:torch.distributed.elastic.multiprocessing.errors.error_handler:{
+  "message": {
+    "message": "SignalException: Process 1000807 got signal: 1",
+    "extraInfo": {
+      "py_callstack": "Traceback (most recent call last):\n  File \"/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py\", line 345, in wrapper\n    return f(*args, **kwargs)\n  File \"/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/run.py\", line 719, in main\n    run(args)\n  File \"/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/run.py\", line 710, in run\n    elastic_launch(\n  File \"/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/launcher/api.py\", line 131, in __call__\n    return launch_agent(self._config, self._entrypoint, list(args))\n  File \"/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/launcher/api.py\", line 252, in launch_agent\n    result = agent.run()\n  File \"/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/elastic/metrics/api.py\", line 125, in wrapper\n    result = f(*args, **kwargs)\n  File \"/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/elastic/agent/server/api.py\", line 709, in run\n    result = self._invoke_run(role)\n  File \"/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/elastic/agent/server/api.py\", line 843, in _invoke_run\n    time.sleep(monitor_interval)\n  File \"/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/elastic/multiprocessing/api.py\", line 60, in _terminate_process_handler\n    raise SignalException(f\"Process {os.getpid()} got signal: {sigval}\", sigval=sigval)\ntorch.distributed.elastic.multiprocessing.api.SignalException: Process 1000807 got signal: 1\n",
+      "timestamp": "1701780393"
+    }
+  }
+}
+Traceback (most recent call last):
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/run.py", line 723, in <module>
+    main()
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 345, in wrapper
+    return f(*args, **kwargs)
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/run.py", line 719, in main
+    run(args)
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/run.py", line 710, in run
+    elastic_launch(
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/launcher/api.py", line 131, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/launcher/api.py", line 252, in launch_agent
+    result = agent.run()
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/elastic/metrics/api.py", line 125, in wrapper
+    result = f(*args, **kwargs)
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/elastic/agent/server/api.py", line 709, in run
+    result = self._invoke_run(role)
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/elastic/agent/server/api.py", line 843, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 60, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 1000807 got signal: 1
+/data4/liuyicheng/miniconda3/bin/python: Error while finding module specification for 'torch.distributed.run' (ModuleNotFoundError: No module named 'torch')
+/data4/liuyicheng/miniconda3/bin/python: Error while finding module specification for 'torch.distributed.run' (ModuleNotFoundError: No module named 'torch')
+WARNING:__main__:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Namespace(action_repr='actionset', activation='leaky_relu', anticipation='longfuture', aux_loss=False, batch_size=2, clip_max_norm=1, cuda=True, dataset='ek', dec_layers=2, decoder='parallel', device='cuda', dim_feedforward=2048, dim_latent=128, dist_url='env://', dropout=0.1, enc_layers=2, encoder='parallel', eos_coef=0.1, epochs=10, eval=False, evaluate_every=5, evaluate_every_epoch=5, fps=60, hidden_dim=256, label_type='verb', local_rank=None, loss_coef_segment=5, loss_coef_siou=3, lr=0.0001, lr_drop=100, lr_joiner=0, matcher_type='greedy', model='antr', nheads=8, norm_type='bn', num_actions=3806, num_decoder_embedding=10000, num_nouns=352, num_pos_embed_dict=50000, num_queries=900, num_verbs=125, num_workers=16, output_dir='./experiments/checkpoints/', position_embedding='sine', position_type='index', pre_norm=False, pretrained_dec_layers=2, pretrained_enc_layers=3, pretrained_path='pretraining_expts/checkpoints/try/checkpoint.pth', pretraining_task='snippet_longfuture_anticipation', resume='', root='data', save_checkpoint_every=1000, seed=42, set_cost_class=1, set_cost_segment=5, set_cost_siou=3, snippet_window=16, split=1, start_epoch=0, step_size=64, task='anticipation', train_many_shot=False, train_timestamps='0.2,0.3,0.4,0.5,0.6,0.7,0.8', val_timestamps='0.25,0.5,0.75', weight_decay=0.0001)
+Namespace(action_repr='actionset', activation='leaky_relu', anticipation='longfuture', aux_loss=False, batch_size=2, clip_max_norm=1, cuda=True, dataset='ek', dec_layers=2, decoder='parallel', device='cuda', dim_feedforward=2048, dim_latent=128, dist_url='env://', dropout=0.1, enc_layers=2, encoder='parallel', eos_coef=0.1, epochs=10, eval=False, evaluate_every=5, evaluate_every_epoch=5, fps=60, hidden_dim=256, label_type='verb', local_rank=None, loss_coef_segment=5, loss_coef_siou=3, lr=0.0001, lr_drop=100, lr_joiner=0, matcher_type='greedy', model='antr', nheads=8, norm_type='bn', num_actions=3806, num_decoder_embedding=10000, num_nouns=352, num_pos_embed_dict=50000, num_queries=900, num_verbs=125, num_workers=16, output_dir='./experiments/checkpoints/', position_embedding='sine', position_type='index', pre_norm=False, pretrained_dec_layers=2, pretrained_enc_layers=3, pretrained_path='pretraining_expts/checkpoints/try/checkpoint.pth', pretraining_task='snippet_longfuture_anticipation', resume='', root='data', save_checkpoint_every=1000, seed=42, set_cost_class=1, set_cost_segment=5, set_cost_siou=3, snippet_window=16, split=1, start_epoch=0, step_size=64, task='anticipation', train_many_shot=False, train_timestamps='0.2,0.3,0.4,0.5,0.6,0.7,0.8', val_timestamps='0.25,0.5,0.75', weight_decay=0.0001)
+Namespace(action_repr='actionset', activation='leaky_relu', anticipation='longfuture', aux_loss=False, batch_size=2, clip_max_norm=1, cuda=True, dataset='ek', dec_layers=2, decoder='parallel', device='cuda', dim_feedforward=2048, dim_latent=128, dist_url='env://', dropout=0.1, enc_layers=2, encoder='parallel', eos_coef=0.1, epochs=10, eval=False, evaluate_every=5, evaluate_every_epoch=5, fps=60, hidden_dim=256, label_type='verb', local_rank=None, loss_coef_segment=5, loss_coef_siou=3, lr=0.0001, lr_drop=100, lr_joiner=0, matcher_type='greedy', model='antr', nheads=8, norm_type='bn', num_actions=3806, num_decoder_embedding=10000, num_nouns=352, num_pos_embed_dict=50000, num_queries=900, num_verbs=125, num_workers=16, output_dir='./experiments/checkpoints/', position_embedding='sine', position_type='index', pre_norm=False, pretrained_dec_layers=2, pretrained_enc_layers=3, pretrained_path='pretraining_expts/checkpoints/try/checkpoint.pth', pretraining_task='snippet_longfuture_anticipation', resume='', root='data', save_checkpoint_every=1000, seed=42, set_cost_class=1, set_cost_segment=5, set_cost_siou=3, snippet_window=16, split=1, start_epoch=0, step_size=64, task='anticipation', train_many_shot=False, train_timestamps='0.2,0.3,0.4,0.5,0.6,0.7,0.8', val_timestamps='0.25,0.5,0.75', weight_decay=0.0001)
+Namespace(action_repr='actionset', activation='leaky_relu', anticipation='longfuture', aux_loss=False, batch_size=2, clip_max_norm=1, cuda=True, dataset='ek', dec_layers=2, decoder='parallel', device='cuda', dim_feedforward=2048, dim_latent=128, dist_url='env://', dropout=0.1, enc_layers=2, encoder='parallel', eos_coef=0.1, epochs=10, eval=False, evaluate_every=5, evaluate_every_epoch=5, fps=60, hidden_dim=256, label_type='verb', local_rank=None, loss_coef_segment=5, loss_coef_siou=3, lr=0.0001, lr_drop=100, lr_joiner=0, matcher_type='greedy', model='antr', nheads=8, norm_type='bn', num_actions=3806, num_decoder_embedding=10000, num_nouns=352, num_pos_embed_dict=50000, num_queries=900, num_verbs=125, num_workers=16, output_dir='./experiments/checkpoints/', position_embedding='sine', position_type='index', pre_norm=False, pretrained_dec_layers=2, pretrained_enc_layers=3, pretrained_path='pretraining_expts/checkpoints/try/checkpoint.pth', pretraining_task='snippet_longfuture_anticipation', resume='', root='data', save_checkpoint_every=1000, seed=42, set_cost_class=1, set_cost_segment=5, set_cost_siou=3, snippet_window=16, split=1, start_epoch=0, step_size=64, task='anticipation', train_many_shot=False, train_timestamps='0.2,0.3,0.4,0.5,0.6,0.7,0.8', val_timestamps='0.25,0.5,0.75', weight_decay=0.0001)
+Namespace(action_repr='actionset', activation='leaky_relu', anticipation='longfuture', aux_loss=False, batch_size=2, clip_max_norm=1, cuda=True, dataset='ek', dec_layers=2, decoder='parallel', device='cuda', dim_feedforward=2048, dim_latent=128, dist_url='env://', dropout=0.1, enc_layers=2, encoder='parallel', eos_coef=0.1, epochs=10, eval=False, evaluate_every=5, evaluate_every_epoch=5, fps=60, hidden_dim=256, label_type='verb', local_rank=None, loss_coef_segment=5, loss_coef_siou=3, lr=0.0001, lr_drop=100, lr_joiner=0, matcher_type='greedy', model='antr', nheads=8, norm_type='bn', num_actions=3806, num_decoder_embedding=10000, num_nouns=352, num_pos_embed_dict=50000, num_queries=900, num_verbs=125, num_workers=16, output_dir='./experiments/checkpoints/', position_embedding='sine', position_type='index', pre_norm=False, pretrained_dec_layers=2, pretrained_enc_layers=3, pretrained_path='pretraining_expts/checkpoints/try/checkpoint.pth', pretraining_task='snippet_longfuture_anticipation', resume='', root='data', save_checkpoint_every=1000, seed=42, set_cost_class=1, set_cost_segment=5, set_cost_siou=3, snippet_window=16, split=1, start_epoch=0, step_size=64, task='anticipation', train_many_shot=False, train_timestamps='0.2,0.3,0.4,0.5,0.6,0.7,0.8', val_timestamps='0.25,0.5,0.75', weight_decay=0.0001)
+Namespace(action_repr='actionset', activation='leaky_relu', anticipation='longfuture', aux_loss=False, batch_size=2, clip_max_norm=1, cuda=True, dataset='ek', dec_layers=2, decoder='parallel', device='cuda', dim_feedforward=2048, dim_latent=128, dist_url='env://', dropout=0.1, enc_layers=2, encoder='parallel', eos_coef=0.1, epochs=10, eval=False, evaluate_every=5, evaluate_every_epoch=5, fps=60, hidden_dim=256, label_type='verb', local_rank=None, loss_coef_segment=5, loss_coef_siou=3, lr=0.0001, lr_drop=100, lr_joiner=0, matcher_type='greedy', model='antr', nheads=8, norm_type='bn', num_actions=3806, num_decoder_embedding=10000, num_nouns=352, num_pos_embed_dict=50000, num_queries=900, num_verbs=125, num_workers=16, output_dir='./experiments/checkpoints/', position_embedding='sine', position_type='index', pre_norm=False, pretrained_dec_layers=2, pretrained_enc_layers=3, pretrained_path='pretraining_expts/checkpoints/try/checkpoint.pth', pretraining_task='snippet_longfuture_anticipation', resume='', root='data', save_checkpoint_every=1000, seed=42, set_cost_class=1, set_cost_segment=5, set_cost_siou=3, snippet_window=16, split=1, start_epoch=0, step_size=64, task='anticipation', train_many_shot=False, train_timestamps='0.2,0.3,0.4,0.5,0.6,0.7,0.8', val_timestamps='0.25,0.5,0.75', weight_decay=0.0001)
+| distributed init (rank 0): env://
+| distributed init (rank 3): env://
+| distributed init (rank 1): env://
+| distributed init (rank 4): env://
+| distributed init (rank 2): env://
+| distributed init (rank 5): env://
+ek : time-independent anticipation 1251
+ek : time-independent anticipation 172
+EncoderSnippetLongfutureAnticipation(
+  (transformer): Transformer(
+    (encoder): TransformerEncoder(
+      (layers): ModuleList(
+        (0): TransformerEncoderLayer(
+          (self_attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+          )
+          (linear1): Linear(in_features=256, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear2): Linear(in_features=2048, out_features=256, bias=True)
+          (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (dropout1): Dropout(p=0.1, inplace=False)
+          (dropout2): Dropout(p=0.1, inplace=False)
+        )
+        (1): TransformerEncoderLayer(
+          (self_attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+          )
+          (linear1): Linear(in_features=256, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear2): Linear(in_features=2048, out_features=256, bias=True)
+          (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (dropout1): Dropout(p=0.1, inplace=False)
+          (dropout2): Dropout(p=0.1, inplace=False)
+        )
+      )
+    )
+  )
+  (joiner): Joiner(
+    (0): PositionEmbeddingSineIndex()
+  )
+  (query_embed): Embedding(1, 256)
+  (class_embed): Identity()
+  (input_proj): Conv1d(2048, 256, kernel_size=(1,), stride=(1,))
+)
+ANTR(
+  (transformer): TransformerMultipleEncoder(
+    (video_encoder): TransformerEncoder(
+      (layers): ModuleList(
+        (0): TransformerEncoderLayer(
+          (self_attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+          )
+          (linear1): Linear(in_features=256, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear2): Linear(in_features=2048, out_features=256, bias=True)
+          (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (dropout1): Dropout(p=0.1, inplace=False)
+          (dropout2): Dropout(p=0.1, inplace=False)
+        )
+        (1): TransformerEncoderLayer(
+          (self_attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+          )
+          (linear1): Linear(in_features=256, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear2): Linear(in_features=2048, out_features=256, bias=True)
+          (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (dropout1): Dropout(p=0.1, inplace=False)
+          (dropout2): Dropout(p=0.1, inplace=False)
+        )
+      )
+    )
+    (snippet_encoder): EncoderSnippetLongfutureAnticipation(
+      (transformer): Transformer(
+        (encoder): TransformerEncoder(
+          (layers): ModuleList(
+            (0): TransformerEncoderLayer(
+              (self_attn): MultiheadAttention(
+                (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+              )
+              (linear1): Linear(in_features=256, out_features=2048, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+              (linear2): Linear(in_features=2048, out_features=256, bias=True)
+              (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+              (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+              (dropout1): Dropout(p=0.1, inplace=False)
+              (dropout2): Dropout(p=0.1, inplace=False)
+            )
+            (1): TransformerEncoderLayer(
+              (self_attn): MultiheadAttention(
+                (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+              )
+              (linear1): Linear(in_features=256, out_features=2048, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+              (linear2): Linear(in_features=2048, out_features=256, bias=True)
+              (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+              (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+              (dropout1): Dropout(p=0.1, inplace=False)
+              (dropout2): Dropout(p=0.1, inplace=False)
+            )
+          )
+        )
+      )
+      (joiner): Joiner(
+        (0): PositionEmbeddingSineIndex()
+      )
+      (query_embed): Embedding(1, 256)
+      (class_embed): Identity()
+      (input_proj): Conv1d(2048, 256, kernel_size=(1,), stride=(1,))
+    )
+    (decoder): TransformerMultipleEncoderDecoder(
+      (layers): ModuleList(
+        (0): TransformerMultipleEncoderDecoderLayer(
+          (self_attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+          )
+          (multihead_attn1): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+          )
+          (multihead_attn2): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+          )
+          (linear1): Linear(in_features=256, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear2): Linear(in_features=2048, out_features=256, bias=True)
+          (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (norm3): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (norm4): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (dropout1): Dropout(p=0.1, inplace=False)
+          (dropout2): Dropout(p=0.1, inplace=False)
+          (dropout3): Dropout(p=0.1, inplace=False)
+          (dropout4): Dropout(p=0.1, inplace=False)
+        )
+        (1): TransformerMultipleEncoderDecoderLayer(
+          (self_attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+          )
+          (multihead_attn1): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+          )
+          (multihead_attn2): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+          )
+          (linear1): Linear(in_features=256, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear2): Linear(in_features=2048, out_features=256, bias=True)
+          (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (norm3): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (norm4): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (dropout1): Dropout(p=0.1, inplace=False)
+          (dropout2): Dropout(p=0.1, inplace=False)
+          (dropout3): Dropout(p=0.1, inplace=False)
+          (dropout4): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    )
+  )
+  (joiner): Joiner(
+    (0): PositionEmbeddingSineIndex()
+  )
+  (query_embed): Embedding(900, 256)
+  (query_time_embed): Linear(in_features=257, out_features=256, bias=True)
+  (class_embed): Linear(in_features=256, out_features=126, bias=True)
+  (segments_embed): MLP(
+    (layers): ModuleList(
+      (0): Linear(in_features=256, out_features=256, bias=True)
+      (1): Linear(in_features=256, out_features=256, bias=True)
+      (2): Linear(in_features=256, out_features=2, bias=True)
+    )
+  )
+  (input_proj): Conv1d(2048, 256, kernel_size=(1,), stride=(1,))
+)
+0
+number of params: 7300992
+Start Training
+Epoch: [0]  [  0/104]  eta: 0:50:49  lr: 0.000100  loss: 8.1049 (8.1049)  loss_ce: 4.6833 (4.6833)  loss_segment: 3.9943 (3.9943)  loss_siou: 2.9913 (2.9913)  loss_ce_unscaled: 4.6833 (4.6833)  loss_segment_unscaled: 0.7989 (0.7989)  loss_siou_unscaled: 0.9971 (0.9971)  time: 29.3201  data: 5.6248  max mem: 782
+Epoch: [0]  [  1/104]  eta: 12:07:15  lr: 0.000100  loss: 8.1049 (8.9091)  loss_ce: 3.5877 (4.1355)  loss_segment: 3.9943 (4.0943)  loss_siou: 2.9894 (2.9903)  loss_ce_unscaled: 3.5877 (4.1355)  loss_segment_unscaled: 0.7989 (0.8189)  loss_siou_unscaled: 0.9965 (0.9968)  time: 423.6452  data: 2.8744  max mem: 2967
+Epoch: [0]  [  2/104]  eta: 8:30:04  lr: 0.000100  loss: 8.1049 (8.5754)  loss_ce: 3.5877 (3.7065)  loss_segment: 3.9943 (4.0016)  loss_siou: 2.9894 (2.9810)  loss_ce_unscaled: 3.5877 (3.7065)  loss_segment_unscaled: 0.7989 (0.8003)  loss_siou_unscaled: 0.9965 (0.9937)  time: 300.0439  data: 1.9752  max mem: 5310
+Epoch: [0]  [  3/104]  eta: 6:25:39  lr: 0.000100  loss: 8.1049 (10.0961)  loss_ce: 2.8486 (3.3774)  loss_segment: 3.8164 (3.8230)  loss_siou: 2.9622 (2.9755)  loss_ce_unscaled: 2.8486 (3.3774)  loss_segment_unscaled: 0.7633 (0.7646)  loss_siou_unscaled: 0.9874 (0.9918)  time: 229.1065  data: 1.5090  max mem: 6701
+Epoch: [0]  [  4/104]  eta: 5:11:29  lr: 0.000100  loss: 8.1049 (9.1485)  loss_ce: 2.8486 (3.0923)  loss_segment: 3.8164 (3.6308)  loss_siou: 2.9622 (2.9708)  loss_ce_unscaled: 2.8486 (3.0923)  loss_segment_unscaled: 0.7633 (0.7262)  loss_siou_unscaled: 0.9874 (0.9903)  time: 186.8949  data: 1.2112  max mem: 6701
+Epoch: [0]  [  5/104]  eta: 4:18:27  lr: 0.000100  loss: 8.1049 (9.1941)  loss_ce: 2.3902 (2.8697)  loss_segment: 3.2871 (3.4643)  loss_siou: 2.9591 (2.9663)  loss_ce_unscaled: 2.3902 (2.8697)  loss_segment_unscaled: 0.6574 (0.6929)  loss_siou_unscaled: 0.9864 (0.9888)  time: 156.6429  data: 1.0096  max mem: 6701
+Epoch: [0]  [  6/104]  eta: 3:41:08  lr: 0.000100  loss: 8.1049 (8.7117)  loss_ce: 2.3902 (2.7572)  loss_segment: 3.2871 (3.3300)  loss_siou: 2.9591 (2.9643)  loss_ce_unscaled: 2.3902 (2.7572)  loss_segment_unscaled: 0.6574 (0.6660)  loss_siou_unscaled: 0.9864 (0.9881)  time: 135.3914  data: 0.8660  max mem: 6701
+Epoch: [0]  [  7/104]  eta: 3:25:28  lr: 0.000100  loss: 7.9078 (8.1926)  loss_ce: 2.3902 (2.7322)  loss_segment: 2.8618 (3.2164)  loss_siou: 2.9591 (2.9645)  loss_ce_unscaled: 2.3902 (2.7322)  loss_segment_unscaled: 0.5724 (0.6433)  loss_siou_unscaled: 0.9864 (0.9882)  time: 127.0945  data: 0.7591  max mem: 6701
+Epoch: [0]  [  8/104]  eta: 5:49:36  lr: 0.000100  loss: 8.1049 (8.3428)  loss_ce: 2.4881 (2.7051)  loss_segment: 2.8618 (3.1431)  loss_siou: 2.9622 (2.9670)  loss_ce_unscaled: 2.4881 (2.7051)  loss_segment_unscaled: 0.5724 (0.6286)  loss_siou_unscaled: 0.9874 (0.9890)  time: 218.5039  data: 0.6752  max mem: 6701
+[E ProcessGroupNCCL.cpp:587] [Rank 3] Watchdog caught collective operation timeout: WorkNCCL(OpType=ALLREDUCE, Timeout(ms)=1800000) ran for 1804664 milliseconds before timing out.
+[E ProcessGroupNCCL.cpp:587] [Rank 1] Watchdog caught collective operation timeout: WorkNCCL(OpType=ALLREDUCE, Timeout(ms)=1800000) ran for 1805353 milliseconds before timing out.
+[E ProcessGroupNCCL.cpp:587] [Rank 4] Watchdog caught collective operation timeout: WorkNCCL(OpType=ALLREDUCE, Timeout(ms)=1800000) ran for 1804660 milliseconds before timing out.
+[E ProcessGroupNCCL.cpp:587] [Rank 5] Watchdog caught collective operation timeout: WorkNCCL(OpType=ALLREDUCE, Timeout(ms)=1800000) ran for 1802913 milliseconds before timing out.
+[E ProcessGroupNCCL.cpp:587] [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(OpType=ALLREDUCE, Timeout(ms)=1800000) ran for 1804700 milliseconds before timing out.
+[E ProcessGroupNCCL.cpp:341] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data. To avoid this inconsistency, we are taking the entire process down.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  [Rank 3] Watchdog caught collective operation timeout: WorkNCCL(OpType=ALLREDUCE, Timeout(ms)=1800000) ran for 1804664 milliseconds before timing out.
+[E ProcessGroupNCCL.cpp:341] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data. To avoid this inconsistency, we are taking the entire process down.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  [Rank 1] Watchdog caught collective operation timeout: WorkNCCL(OpType=ALLREDUCE, Timeout(ms)=1800000) ran for 1805353 milliseconds before timing out.
+Traceback (most recent call last):
+  File "src/main.py", line 236, in <module>
+    main(args)
+  File "src/main.py", line 205, in main
+    train_stats = train_one_epoch(epoch, args.clip_max_norm, model, criterion, data_loader_train, optimizer, lr_scheduler, device)
+  File "/data4/liuyicheng/codes/LTA/anticipatr/src/engine.py", line 42, in train_one_epoch
+    loss_dict_reduced = utils.reduce_dict(loss_dict)
+  File "/data4/liuyicheng/codes/LTA/anticipatr/src/utils/misc.py", line 151, in reduce_dict
+    dist.all_reduce(values)
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/distributed_c10d.py", line 1285, in all_reduce
+    work = default_pg.allreduce([tensor], opts)
+RuntimeError: NCCL communicator was aborted on rank 2.  Original reason for failure was: [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(OpType=ALLREDUCE, Timeout(ms)=1800000) ran for 1804700 milliseconds before timing out.
+Traceback (most recent call last):
+  File "src/main.py", line 236, in <module>
+    main(args)
+  File "src/main.py", line 205, in main
+    train_stats = train_one_epoch(epoch, args.clip_max_norm, model, criterion, data_loader_train, optimizer, lr_scheduler, device)
+  File "/data4/liuyicheng/codes/LTA/anticipatr/src/engine.py", line 42, in train_one_epoch
+    loss_dict_reduced = utils.reduce_dict(loss_dict)
+  File "/data4/liuyicheng/codes/LTA/anticipatr/src/utils/misc.py", line 151, in reduce_dict
+    dist.all_reduce(values)
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/distributed_c10d.py", line 1285, in all_reduce
+    work = default_pg.allreduce([tensor], opts)
+RuntimeError: NCCL communicator was aborted on rank 4.  Original reason for failure was: [Rank 4] Watchdog caught collective operation timeout: WorkNCCL(OpType=ALLREDUCE, Timeout(ms)=1800000) ran for 1804660 milliseconds before timing out.
+[E ProcessGroupNCCL.cpp:341] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data. To avoid this inconsistency, we are taking the entire process down.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(OpType=ALLREDUCE, Timeout(ms)=1800000) ran for 1804700 milliseconds before timing out.
+[E ProcessGroupNCCL.cpp:341] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data. To avoid this inconsistency, we are taking the entire process down.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  [Rank 4] Watchdog caught collective operation timeout: WorkNCCL(OpType=ALLREDUCE, Timeout(ms)=1800000) ran for 1804660 milliseconds before timing out.
+[E ProcessGroupNCCL.cpp:341] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data. To avoid this inconsistency, we are taking the entire process down.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  [Rank 5] Watchdog caught collective operation timeout: WorkNCCL(OpType=ALLREDUCE, Timeout(ms)=1800000) ran for 1802913 milliseconds before timing out.
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 1002807 closing signal SIGTERM
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: -6) local_rank: 1 (pid: 1002808) of binary: /data4/liuyicheng/miniconda3/envs/ant_env/bin/python
+Traceback (most recent call last):
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/run.py", line 723, in <module>
+    main()
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 345, in wrapper
+    return f(*args, **kwargs)
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/run.py", line 719, in main
+    run(args)
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/run.py", line 710, in run
+    elastic_launch(
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/launcher/api.py", line 131, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/data4/liuyicheng/miniconda3/envs/ant_env/lib/python3.8/site-packages/torch/distributed/launcher/api.py", line 259, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+========================================================
+src/main.py FAILED
+--------------------------------------------------------
+Failures:
+[1]:
+  time      : 2023-12-05_21:56:10
+  host      : server-17
+  rank      : 2 (local_rank: 2)
+  exitcode  : -6 (pid: 1002809)
+  error_file: <N/A>
+  traceback : Signal 6 (SIGABRT) received by PID 1002809
+[2]:
+  time      : 2023-12-05_21:56:10
+  host      : server-17
+  rank      : 3 (local_rank: 3)
+  exitcode  : -6 (pid: 1002810)
+  error_file: <N/A>
+  traceback : Signal 6 (SIGABRT) received by PID 1002810
+[3]:
+  time      : 2023-12-05_21:56:10
+  host      : server-17
+  rank      : 4 (local_rank: 4)
+  exitcode  : -6 (pid: 1002811)
+  error_file: <N/A>
+  traceback : Signal 6 (SIGABRT) received by PID 1002811
+[4]:
+  time      : 2023-12-05_21:56:10
+  host      : server-17
+  rank      : 5 (local_rank: 5)
+  exitcode  : -6 (pid: 1002812)
+  error_file: <N/A>
+  traceback : Signal 6 (SIGABRT) received by PID 1002812
+--------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2023-12-05_21:56:10
+  host      : server-17
+  rank      : 1 (local_rank: 1)
+  exitcode  : -6 (pid: 1002808)
+  error_file: <N/A>
+  traceback : Signal 6 (SIGABRT) received by PID 1002808
+========================================================
